@@ -44,5 +44,11 @@ Product direction, branding, feature decisions, testing, and final approval rema
 ## Source package
 
 The uploaded source package contains the production build submitted for OpenAI Build Week. It runs in the browser and requires no credentials, database, environment variables, or external API key.
+## Run locally
+
+1. Download and extract `PromptPro_GitHub_Upload.zip`.
+2. Open Terminal in the extracted `promptpro-build-week` folder.
+3. Run: `python3 -m http.server 8080`
+4. Open `http://localhost:8080` in a browser.
 
 Copyright © 2026 Turnkey Marketing Pros™. All rights reserved.
